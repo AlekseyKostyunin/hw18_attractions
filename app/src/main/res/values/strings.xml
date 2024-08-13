@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">hw18_attractions</string>
+    <string name="create_photo">Сделать фото</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="take_photo">Сделать фото</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/create_photo">
+
+    <fragment
+        android:id="@+id/photos"
+        android:name="com.alekseykostyunin.hw18_attractions.presentation.ListPhotoFragment"
+        tools:layout="@layout/fragment_list_photo">
+
+        <action
+            android:id="@+id/action_list_photo_to_create_photo"
+            app:destination="@id/create_photo"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/create_photo"
+        android:name="com.alekseykostyunin.hw18_attractions.presentation.CreatePhotoFragment"
+        tools:layout="@layout/fragment_create_photo">
+
+        <action
+            android:id="@+id/action_create_photo_to_list_photo"
+            app:destination="@id/photos"/>
+    </fragment>
+
+
+</navigation>
