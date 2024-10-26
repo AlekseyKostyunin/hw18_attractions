@@ -1,4 +1,4 @@
-package com.alekseykostyunin.hw18_attractions.domain
+package com.alekseykostyunin.hw18_attractions.presentation
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel

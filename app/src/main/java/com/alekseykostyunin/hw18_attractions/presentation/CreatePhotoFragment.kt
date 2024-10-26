@@ -22,7 +22,6 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.alekseykostyunin.hw18_attractions.R
 import com.alekseykostyunin.hw18_attractions.databinding.FragmentCreatePhotoBinding
-import com.alekseykostyunin.hw18_attractions.domain.CreatePhotoViewModel
 import java.text.SimpleDateFormat
 import java.util.Locale
 import java.util.concurrent.Executor

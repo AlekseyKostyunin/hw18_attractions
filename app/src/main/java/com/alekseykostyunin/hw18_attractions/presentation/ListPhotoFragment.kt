@@ -11,8 +11,6 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import com.alekseykostyunin.hw18_attractions.R
 import com.alekseykostyunin.hw18_attractions.databinding.FragmentListPhotoBinding
-import com.alekseykostyunin.hw18_attractions.domain.ListPhotoViewModel
-import com.alekseykostyunin.hw18_attractions.domain.PhotoAdapter
 import kotlinx.coroutines.launch
 
 class ListPhotoFragment : Fragment() {
